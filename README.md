@@ -198,4 +198,4 @@ the prerequisite ordering, so a dependency felt like more than the problem neede
 
 - **Live app:** https://prepgraph-wexa-ai.vercel.app
 - **Backend API:** https://prepgraph-api.onrender.com
-- **Screen recording:** <yahan apna recording ka link daalo — YouTube unlisted ya Loom>
+- **Screen recording:** https://drive.google.com/file/d/1LyoqskoAgW0EkBtITUZMqeaGIIoc5kpU/view?usp=sharing
