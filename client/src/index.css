@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0F1512;
+  color: #EDEAE1;
+  font-family: 'Inter', sans-serif;
+  /* Faint contour-line texture, like a topographic map — the signature
+     visual motif of the whole app. Drawn as repeating concentric-ish
+     radial rings using layered background gradients (cheap, no image asset). */
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(111,168,138,0.05) 0, transparent 35%),
+    radial-gradient(circle at 80% 60%, rgba(232,163,61,0.04) 0, transparent 40%),
+    repeating-radial-gradient(circle at 50% 0%, transparent 0, transparent 38px, rgba(42,59,50,0.35) 39px, transparent 40px);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.contour-rule {
+  border-top: 1px dashed #2A3B32;
+}
+
+.trail-dash {
+  stroke-dasharray: 4 5;
+}
+
+/* Visible keyboard focus everywhere — accessibility floor from design skill */
+:focus-visible {
+  outline: 2px solid #E8A33D;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "prepgraph-server",
+  "version": "1.0.0",
+  "description": "Express API layer over CognoDB (Neo4j-compatible) for PrepGraph",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "seed": "node seed/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "neo4j-driver": "^5.24.0"
+  }
+}
