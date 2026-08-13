@@ -194,7 +194,8 @@ the prerequisite ordering, so a dependency felt like more than the problem neede
 
 ![PrepGraph Next Trail](screenshots/next-trail.png)
 
-
 ## Demo & recording
 
-*(Add hosted demo link and screen recording link here — both mandatory per the assignment.)*
+- **Live app:** https://prepgraph-wexa-ai.vercel.app
+- **Backend API:** https://prepgraph-api.onrender.com
+- **Screen recording:** <yahan apna recording ka link daalo — YouTube unlisted ya Loom>
